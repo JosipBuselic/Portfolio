@@ -28,7 +28,7 @@ export const AboutSection = () =>{
                         duration: 0.8,
                         ease: [0.25, 0.1, 0.25, 1],        // smooth easing
                     }}
-                    viewport={{ once: true, amount: 0.3 }} 
+                    viewport={{ once: true}} 
                     className="gradient-border p-6 card-hover">
                         <div className="flex items-center">
                             <div className="p-3 rounded-full bg-primary/10">
@@ -47,7 +47,7 @@ export const AboutSection = () =>{
                         duration: 0.8,
                         ease: [0.25, 0.1, 0.25, 1],        // smooth easing
                     }}
-                    viewport={{ once: true, amount: 0.3 }}
+                    viewport={{ once: true}}
                      className="gradient-border p-6 card-hover">
                         <div className="flex items-center">
                             <div className="p-3 rounded-full bg-primary/10">
@@ -66,7 +66,7 @@ export const AboutSection = () =>{
                         duration: 0.8,
                         ease: [0.25, 0.1, 0.25, 1],        // smooth easing
                     }}
-                    viewport={{ once: true, amount: 0.3 }}
+                    viewport={{ once: true}}
                     className="gradient-border p-6 card-hover">
                         <div className="flex items-center">
                             <div className="p-3 rounded-full bg-primary/10">
