@@ -15,8 +15,8 @@ export const AboutSection = () =>{
 
                     <p className="my-8">I’m a 21-year-old student from Croatia, currently studying at FER. I’m passionate about data science but open to learning anything that broadens my skills. <br /> <br /> Always eager to grow, I enjoy tackling challenges, experimenting with new ideas, and turning curiosity into practical results. I bring enthusiasm, dedication, and a strong willingness to learn into everything I do.</p>
                     <div className="flex pt-5 justify-center space-x-8">
-                        <a href="#contact" className="cosmic-button">Get in Touch</a>
-                        <a href="" className="other-button">Download CV</a>
+                        <a href="#Contact" className="cosmic-button">Get in Touch</a>
+                        <a href="/CV.pdf" className="other-button">Download CV</a>
                     </div>
                 </div>
 
