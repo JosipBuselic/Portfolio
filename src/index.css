@@ -64,25 +64,7 @@
 
 @layer base {
   :root {
-    --background: 210 40% 98%;
-    --foreground: 222 47% 11%;
 
-    --card: 0 0% 100%;
-
-    --primary: 250 47% 60%;
-    --primary-foreground: 210 40% 98%;
-
-    --border: 214 32% 91%;
-
-    --star-center: rgba(139, 92, 246, 0.8); /* Purple core */
-    --star-shadow: rgba(139, 92, 246, 0.3); /* Softer purple glow */
-
-    --meteor-start: rgba(139, 92, 246, 0.8); /* Purple */
-    --meteor-end: rgba(255, 255, 255, 0);    /* Transparent/white fade */
-    --meteor-shadow: rgba(139, 92, 246, 0.5); /* Purple glow */
-  }
-
-  .dark {
     --background: 222 47% 4%;
     --foreground: 213 31% 91%;
 
@@ -100,6 +82,26 @@
     --meteor-middle: rgba(255, 255, 255, 0.9);
     --meteor-end: rgba(255, 255, 255, 0);
     --meteor-shadow: rgba(255, 255, 255, 0.3); /* White glow for dark mode */
+  
+  }
+
+  .dark {
+    --background: 210 40% 98%;
+    --foreground: 222 47% 11%;
+
+    --card: 0 0% 100%;
+
+    --primary: 250 47% 60%;
+    --primary-foreground: 210 40% 98%;
+
+    --border: 214 32% 91%;
+
+    --star-center: rgba(139, 92, 246, 0.8); /* Purple core */
+    --star-shadow: rgba(139, 92, 246, 0.3); /* Softer purple glow */
+
+    --meteor-start: rgba(139, 92, 246, 0.8); /* Purple */
+    --meteor-end: rgba(255, 255, 255, 0);    /* Transparent/white fade */
+    --meteor-shadow: rgba(139, 92, 246, 0.5); /* Purple glow */
   }
 
   * {
