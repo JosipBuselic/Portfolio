@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import {Sun} from "lucide-react";
 import { Moon } from "lucide-react";
-import { motion } from "framer-motion";
+
 
 export const ThemeToggle = () => {
     const [isDarkMode, SetIsDarkMode] = useState(true)

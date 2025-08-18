@@ -1,7 +1,6 @@
 import { CircleCheck, CircleX, Github, Instagram, Linkedin, Mail, MapPin, Phone, Send } from "lucide-react"
 import { useState } from "react"
 import { toast } from "sonner"
-import React, { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 
 export const Contact = () =>{
