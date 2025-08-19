@@ -90,7 +90,7 @@ export const Contact = () =>{
                             <a className="group p-4 rounded-full gradient-border" href="https://www.linkedin.com/in/josip-bu%C5%A1eli%C4%87-43514033a/">
                                 <Linkedin className="text-foreground group-hover:text-primary" />
                             </a>
-                            <a className="group p-4 rounded-full gradient-border" href="https://github.com/JosipBuselic">
+                            <a className="group p-4 rounded-full gradient-border" href="https://www.instagram.com/josip_buselic/">
                                 <Instagram className="text-foreground group-hover:text-primary" />
                             </a>
                         </div>
