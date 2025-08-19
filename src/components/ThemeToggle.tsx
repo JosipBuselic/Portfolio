@@ -20,7 +20,7 @@ export const ThemeToggle = () => {
     const toggleDarkMode = () => {
         if(isLightMode){
             document.documentElement.classList.remove("light")
-            localStorage.setItem("theme", "light")
+            localStorage.setItem("theme", "dark")
             SetIsLightMode(false)
         }
         else{
