@@ -13,18 +13,15 @@ const skills = [
   {"name": "React.js", "category": "frontend"},
   {"name": "Next.js", "category": "frontend"},
     //BACKEND
-  {"name": "Node.js", "category": "backend"},
+  {"name": "Javascript", "category": "backend"},
   {"name": "Python", "category": "backend"},
   {"name": "Java", "category": "backend"},
   {"name": "Express.js", "category": "backend"},
   {"name": "Flask", "category": "backend"},
   {"name": "REST APIs", "category": "backend"},
   {"name": "PostgreSQL", "category": "backend"},
-  {"name": "Modelling databases", "category": "backend"},
     // TOOLS
-  {"name": "Git", "category": "tools"},
   {"name": "GitHub", "category": "tools"},
-  {"name": "VsCode", "category": "tools"},
   {"name": "Postman", "category": "tools"}
 ]
 
