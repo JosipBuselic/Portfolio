@@ -58,7 +58,7 @@ export const ProjectsSection = () =>{
                         ease: [0.25, 0.1, 0.25, 1],        // smooth easing
                     }}
                     viewport={{ once: true, amount: 0.3 }} 
-                    className="gradient-border card-hover bg-card p-6">
+                    className="gradient-border card-hover bg-card p-6 hover:border hover:border-primary transition-all hover:shadow-[0_0_8px_hsl(var(--primary))]">
                         <img src={project.Image} alt="" />
                         <h3 className="my-4 text-2xl">{project.title}</h3>
                         <p>{project.description}</p>
