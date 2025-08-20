@@ -64,7 +64,7 @@ export const ProjectsSection = () =>{
                         <p>{project.description}</p>
                         <div className="flex flex-wrap mt-3 justify-center space-x-2">
                             {project.tags.map((tag) => (
-                                <div className="bg-primary p-2 rounded-full mt-4 text-white">
+                                <div className="border border-primary p-1.5 rounded-lg mt-4 text-primary text-sm bg-primary/20">
                                     {tag}
                                 </div>
                             ))}
