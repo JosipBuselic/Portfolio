@@ -13,7 +13,7 @@ const projects = [
     },
     {
         id: 2,
-        title: "Authentitacion system with roles and permissions", 
+        title: "Authentication System with Roles and Permissions", 
         description: "Developed a robust authentication system with role-based access and permissions, ensuring secure and controlled access to different parts of the application.",
         Image: "/projects/Authsystem.png",
         tags: ["NextJS", "Python", "Flask", "Rest API", "Supabase", "PostgreSQL"],
