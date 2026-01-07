@@ -32,10 +32,10 @@ const projects = [
     {
         id: 4,
         title: "Buselic Apartments", 
-        description: "Designed and developed a professional website for my apartments using WordPress, creating a user-friendly interface to showcase properties and provide essential information to visitors.",
+        description: "Designed and developed a professional website for my apartments using Next.js, creating a user-friendly interface to showcase properties and provide essential information to visitors.",
         Image: "/projects/Buselic.png",
-        tags: ["WordPress", "WebDevelopment"],
-        Url: "https://buselic-tucepi.com.hr/",
+        tags: ["Next.js", "Supabase", "Auth", "WebDevelopment"],
+        Url: "https://buselic-3xk5.vercel.app/",
         githubUrl: null
     }
 ]
