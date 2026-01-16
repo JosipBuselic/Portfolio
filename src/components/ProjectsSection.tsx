@@ -35,7 +35,7 @@ const projects = [
         description: "Designed and developed a professional website for my apartments using Next.js, creating a user-friendly interface to showcase properties and provide essential information to visitors.",
         Image: "/projects/Buselic.png",
         tags: ["Next.js", "Supabase", "Auth", "WebDevelopment"],
-        Url: "https://buselic-3xk5.vercel.app/",
+        Url: "https://buselic.com",
         githubUrl: null
     }
 ]
