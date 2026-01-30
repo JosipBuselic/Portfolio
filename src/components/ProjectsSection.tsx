@@ -37,6 +37,15 @@ const projects = [
         tags: ["Next.js", "Supabase", "Auth", "WebDevelopment"],
         Url: "https://buselic.com",
         githubUrl: null
+    },
+    {
+        id: 5,
+        title: "Clayplay", 
+        description: "Developed a full-stack web application in a team of seven using React and Flask for FER University. The platform helps ceramic artists organize workshops, events, and exhibitions, providing an intuitive interface for users to browse activities, register, and manage schedules efficiently.",
+        Image: "/projects/Clayplay.png",
+        tags: ["React", "Supabase", "Auth", "WebDevelopment", "Flask", "Paypal"],
+        Url: "https://clayplay-one.vercel.app/",
+        githubUrl: "https://github.com/JosipBuselic/Clayplay"
     }
 ]
 export const ProjectsSection = () =>{
