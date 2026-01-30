@@ -49,6 +49,7 @@ const projects = [
     }
 ]
 export const ProjectsSection = () =>{
+    
     return <section className="py-24 px-4" id="projects">
         <div className="container flex flex-col justify-center items-center">
             <h2 className="text-3xl md:text-4xl mb-12 font-bold">Featured <span className="text-primary"> Projects</span></h2>
