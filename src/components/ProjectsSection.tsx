@@ -13,15 +13,6 @@ const projects = [
     },
     {
         id: 2,
-        title: "Authentication System with Roles and Permissions", 
-        description: "Developed a robust authentication system with role-based access and permissions, ensuring secure and controlled access to different parts of the application.",
-        Image: "/projects/Authsystem.png",
-        tags: ["NextJS", "Python", "Flask", "Rest API", "Supabase", "PostgreSQL"],
-        Url: null,
-        githubUrl: "https://github.com/JosipBuselic/Authentitacion-system-with-roles-and-permissions/tree/main"
-    },
-    {
-        id: 3,
         title: "Webshop J&B", 
         description: "Developed the Webshop J&B using Express.js, EJS, Node.js, and JavaScript, featuring a fully functional e-commerce platform with dynamic product pages and a shopping cart that allows users to add and manage items.",
         Image: "/projects/WebshopJ&B.png",
@@ -30,7 +21,7 @@ const projects = [
         githubUrl: "https://github.com/JosipBuselic/WebshopJB"
     },
     {
-        id: 4,
+        id: 3,
         title: "Buselic Apartments", 
         description: "Designed and developed a professional website for my apartments using Next.js, creating a user-friendly interface to showcase properties and provide essential information to visitors.",
         Image: "/projects/Buselic.png",
@@ -39,7 +30,7 @@ const projects = [
         githubUrl: null
     },
     {
-        id: 5,
+        id: 4,
         title: "Clayplay", 
         description: "Developed a full-stack web application in a team of seven using React and Flask for FER University. The platform helps ceramic artists organize workshops, events, and exhibitions, providing an intuitive interface for users to browse activities, register, and manage schedules efficiently.",
         Image: "/projects/Clayplay.png",
@@ -49,7 +40,7 @@ const projects = [
     }
 ]
 export const ProjectsSection = () =>{
-    
+
     return <section className="py-24 px-4" id="projects">
         <div className="container flex flex-col justify-center items-center">
             <h2 className="text-3xl md:text-4xl mb-12 font-bold">Featured <span className="text-primary"> Projects</span></h2>
