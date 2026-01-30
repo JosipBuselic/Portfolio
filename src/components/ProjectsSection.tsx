@@ -12,15 +12,6 @@ const projects = [
         githubUrl: null
     },
     {
-        id: 2,
-        title: "Webshop J&B", 
-        description: "Developed the Webshop J&B using Express.js, EJS, Node.js, and JavaScript, featuring a fully functional e-commerce platform with dynamic product pages and a shopping cart that allows users to add and manage items.",
-        Image: "/projects/WebshopJ&B.png",
-        tags: ["Express.js", "Node.js", "EJS", "JavaScript", "Rest API"],
-        Url: "https://webshopjandb.onrender.com/home",
-        githubUrl: "https://github.com/JosipBuselic/WebshopJB"
-    },
-    {
         id: 3,
         title: "Buselic Apartments", 
         description: "Designed and developed a professional website for my apartments using Next.js, creating a user-friendly interface to showcase properties and provide essential information to visitors.",
@@ -37,6 +28,15 @@ const projects = [
         tags: ["React", "Supabase", "Auth", "WebDevelopment", "Flask", "Paypal"],
         Url: "https://clayplay-one.vercel.app/",
         githubUrl: "https://github.com/JosipBuselic/Clayplay"
+    },
+    {
+        id: 2,
+        title: "Webshop J&B", 
+        description: "Developed the Webshop J&B using Express.js, EJS, Node.js, and JavaScript, featuring a fully functional e-commerce platform with dynamic product pages and a shopping cart that allows users to add and manage items.",
+        Image: "/projects/WebshopJ&B.png",
+        tags: ["Express.js", "Node.js", "EJS", "JavaScript", "Rest API"],
+        Url: "https://webshopjandb.onrender.com/home",
+        githubUrl: "https://github.com/JosipBuselic/WebshopJB"
     }
 ]
 export const ProjectsSection = () =>{
