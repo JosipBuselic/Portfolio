@@ -35,7 +35,7 @@ const projects = [
         description: "In this group project, four of us analyzed health data in R to predict stroke risk using statistical methods. We also answered questions about the dataset, preprocessing, and results, which helped us understand how statistical analysis can support health risk assessment.",
         Image: "/projects/Sap.png",
         tags: ["R", "ANOVA", "Linear Regression", "Statistics"],
-        Url: "/Predikcija_Moždanog",
+        Url: "/Predikcija_Moždanog.pdf",
         githubUrl: "https://github.com/JosipBuselic/Predikcija-Mo-danog-udara"
     },
     {
