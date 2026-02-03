@@ -30,6 +30,15 @@ const projects = [
         githubUrl: "https://github.com/JosipBuselic/Clayplay"
     },
     {
+        id: 5,
+        title: "Stroke Risk Prediction", 
+        description: "In this group project, four of us analyzed health data in R to predict stroke risk using statistical methods. We also answered questions about the dataset, preprocessing, and results, which helped us understand how statistical analysis can support health risk assessment.",
+        Image: "/projects/Sap.png",
+        tags: ["R", "ANOVA", "Linear Regression", "Statistics"],
+        Url: "/Predikcija_Moždanog",
+        githubUrl: "https://github.com/JosipBuselic/Predikcija-Mo-danog-udara"
+    },
+    {
         id: 2,
         title: "Webshop J&B", 
         description: "Developed the Webshop J&B using Express.js, EJS, Node.js, and JavaScript, featuring a fully functional e-commerce platform with dynamic product pages and a shopping cart that allows users to add and manage items.",
